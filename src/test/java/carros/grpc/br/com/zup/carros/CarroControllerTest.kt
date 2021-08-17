@@ -15,14 +15,7 @@ import javax.inject.Inject
 class CarrosGrpcTest {
 
 
-
-
-
-
-
-
-    
-                 @Inject
+    @Inject
     lateinit var repository: CarroRepository
 
     @BeforeEach
